@@ -1,0 +1,22 @@
+table_name                                   entry_table                         status_before      status_after
+# qs_drz_patient                             entry_data_zy_medical_record        s                  sy
+# qs_drz_patient_operation                   entry_data_operation_detail         sy                 syed
+# form_basic_info                            entry_data_zy_medical_record        sy                 syed
+form_electrocardio_info                      entry_data_ris_report2              s                  sy
+form_labinfo_biochemistry                    entry_data_lis_indicator            s                  sy
+form_labinfo_creactiveprotein                entry_data_lis_indicator            sy                 sy1
+form_labinfo_dungroutine                     entry_data_lis_indicator            sy1                sy2
+form_labinfo_electrolyte                     entry_data_lis_indicator            sy2                sy3
+form_labinfo_esr                             entry_data_lis_indicator            sy3                sy4
+form_labinfo_liverfunction                   entry_data_lis_indicator            sy4                sy5
+form_labinfo_myocardialinfarctionmarkers     entry_data_lis_indicator            sy5                sy6
+form_labinfo_renalfunction                   entry_data_lis_indicator            sy6                sy7
+form_labinfo_thyroidparathyroids             entry_data_lis_indicator            sy7                sy8
+form_labinfo_urineanalysis                   entry_data_lis_indicator            sy8                sy9
+form_labinfo_wholeblood                      entry_data_lis_indicator            sy9                syed
+form_medication_orders                       entry_data_cis_dradvice_detail      s                  syed
+form_operate_pathology_info                  entry_data_operation_detail         s                  sy
+form_pathology_info                          entry_data_ris_report2              sy                 sy1
+form_radiology_info                          entry_data_ris_report               s                  syed
+form_radiotherapy_info                       entry_data_ris_report2              sy1                sy2
+form_ultrasound_info                         entry_data_ris_report2              sy2                syed
